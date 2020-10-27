@@ -1,0 +1,274 @@
+.title{
+  text-align: center;
+  color: white;
+}
+#title2{
+  text-align: center;
+  color: red;
+    font-family :'gregpolice';
+
+}
+.title3{
+  text-align: center;
+  color: red;
+    font-family :'gregpolice';
+
+}
+#notcon{
+  background-image: url('../img/notcon.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+  color: white;
+}
+/*PROFIL*/
+#bodyprofil{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mainprofil{
+  background-image: url('../img/horreur3.jpg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 643px;
+}
+#resultatprofil{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'gregpolice';
+  padding: 3%;
+}
+#profilform{
+  background-color:#0000009e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
+/*CONNEXION*/
+#connexion{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#main2{
+  background-image: url('../img/connexion.jpg');
+  background-size: cover;
+  min-height: 643px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+/*COMMENTAIRE*/
+
+#commentaire{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  
+
+}
+#maincomentaire{
+  background-image:url("../img/fotocommentaire.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 700px;
+
+}
+#formcommentaire{
+  background-color:#ffffff61;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 2%;
+}
+#formcom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#titrepost{
+  font-size: 20px;
+  color: red;
+}
+
+#msg{
+
+  border-radius:20px;
+}
+#sorciere{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  animation: bouge 10s infinite ;
+
+
+}
+@keyframes bouge{
+  0%{opacity: 0;}
+  1%{opacity: 0;}
+  40%{opacity:1;}
+  45%{opacity: 0;}
+  50%{opacity: 0;}
+  51%{opacity: 0;}
+  70%{opacity: 0;}
+  95%{transform: translateX(1280px);}
+  99%{opacity: 0;}
+  100%{opacity: 0;}
+}
+
+@font-face {
+  font-family :'gregpolice';
+  src: url('../img/DoubleFeature20.ttf') format('truetype');
+  }
+
+
+/*INDEX*/
+#bodyindex{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+#mainindex{
+  background-image: url(../img/fotoindex.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#titreindex{
+  display: flex;
+  justify-content: center;
+  color:red;
+  font-family :'gregpolice';
+
+  
+}
+.videotheque{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-around;
+  
+}
+.video{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+
+
+}
+.video2{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin: 1%;
+}
+
+
+
+/*INSCRIPTION*/
+#inscription{
+  background-color: black;
+}
+#continscription{
+ background-image: url('../img/fotolivreor');
+ background-repeat: no-repeat;
+ background-size: cover;
+ min-height: 680px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+#main{
+   width: 40%;
+   color: white;
+}
+
+
+/*LIVREOR*/
+
+#livreor{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#maincomment{
+  background-image: url('../img/horreur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+#tableau{
+  background-color:#212529b3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:solid   black ;
+  overflow: auto;
+  height: 200px;
+  width: 700px;
+
+}
+#tablecomment{
+
+  font-size: 20px;
+  color: red;
+
+}
+.comment{
+  color: white;
+  width: 800px;
+  font-size: 15px;
+
+}
+#poster{
+  font-size: 25px;
+  font-family: 'gregpolice';
+  text-decoration: none;
+  color: red;
+}
+@font-face {
+  font-family :'gregpolice';
+  src: url('DoubleFeature20.ttf') format('truetype');
+  }
+
+/*PROFILS*/
+
+
+.foot{
+  color: white;
+}
